@@ -12,15 +12,18 @@ import {
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <nav className="bg-gradient-to-r from-purple-400 to-red-500 text-white sm:flex sm:justify-between ">
-      <div className=" flex items-center justify-between pl-4 pr-2 py-2  ">
+    <nav
+      className="bg-gradient-to-r from-purple-400 to-red-500 text-white
+      sm:flex sm:justify-between sm:pl-4 sm:pr-5 sm:py-2.5 "
+    >
+      <div className=" flex items-center justify-between pl-4 pr-2 py-2 sm:p-0 ">
         <div className="flex items-center">
           <img src={Logo} alt="Logo" className="h-8" />
           <p>Muhammad Mamooji</p>
         </div>
         <div className="sm:hidden">
           <button
-            className="block px-4 cursor-pointer rounded focus:outline-none hover:bg-purple-300 "
+            className="block px-4 cursor-pointer rounded transition-all duration-500 ease-in-out focus:outline-none hover:bg-purple-300 "
             onClick={() => setNavOpen(!navOpen)}
           >
             <FontAwesomeIcon
@@ -30,20 +33,24 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className={` ${navOpen ? "block " : "hidden"} px-4 pb-2  sm:block`}>
-        <ul className="block sm:block ">
-          {MenuItems.map((item, index) => {
-            return (
-              <a
-                key={index}
-                className=" block font-medium ho sm:font-normal"
-                href={item.url}
-              >
-                {item.title}
-              </a>
-            );
-          })}
-        </ul>
+      <div
+        className={` ${
+          navOpen ? " block " : "hidden"
+        }  px-4 pt-2 pb-4 sm:flex sm:p-0`}
+      >
+        {MenuItems.map((item, index) => {
+          return (
+            <a
+              key={index}
+              className={`${
+                index === 0 ? "mt-0" : "mt-2"
+              } block font-medium rounded px-2 py-1 transition-all duration-500 ease-in-out hover:bg-purple-300 sm:font-normal sm:mt-0 sm:ml-2 `}
+              href={item.url}
+            >
+              {item.title}
+            </a>
+          );
+        })}
       </div>
     </nav>
   );

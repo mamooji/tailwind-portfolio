@@ -7,7 +7,7 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <nav
-      className="z-10 fixed top-0 w-full  bg-gradient-to-r from-purple-400 to-red-500 text-white shadow-lg 
+      className="z-10 sticky top-0 w-full  bg-gradient-to-r from-purple-400 to-red-500 text-white shadow-lg 
       sm:flex sm:justify-between sm:pl-4 sm:pr-5 sm:py-2.5"
     >
       <div className=" flex items-center justify-between pl-4 pr-2 py-2 sm:p-0 ">

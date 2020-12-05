@@ -5,7 +5,7 @@ const SingleCard = (props) => {
     <div
       className={` ${props.color} ${
         props.index === 0 ? "-mt-4" : "mt-4"
-      }  shadow-md rounded-lg max-w-sm  m-4 
+      }  box-border shadow-md rounded-lg max-w-sm  m-4 
          transform transition duration-500 ease-in-out
        hover:scale-110 lg:max-w-xs ${
          props.index === 1 ? "lg:-mt-4" : "lg:-mt-32 xl:-mt-52"

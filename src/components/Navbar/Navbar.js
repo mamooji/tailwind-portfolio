@@ -1,20 +1,14 @@
-import React, { useState, use } from "react";
-import Logo from "../../images/logo.png";
-import { MenuItems } from "../Navbar/MenuItems";
+import React, { useState } from "react";
+import Logo from "../../Assets/Images/logo.png";
+import { MenuItems } from "../../Assets/Data/MenuItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faTimes,
-  faAddressCard,
-  faFile,
-  faLayerGroup,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <nav
-      className="bg-gradient-to-r from-purple-400 to-red-500 text-white
-      sm:flex sm:justify-between sm:pl-4 sm:pr-5 sm:py-2.5 "
+      className="z-10 fixed top-0 w-full  bg-gradient-to-r from-purple-400 to-red-500 text-white shadow-lg 
+      sm:flex sm:justify-between sm:pl-4 sm:pr-5 sm:py-2.5"
     >
       <div className=" flex items-center justify-between pl-4 pr-2 py-2 sm:p-0 ">
         <div className="flex items-center">
@@ -35,8 +29,8 @@ const Navbar = () => {
       </div>
       <div
         className={` ${
-          navOpen ? " block " : "hidden"
-        }  px-4 pt-2 pb-4 sm:flex sm:p-0`}
+          navOpen ? "block" : "hidden"
+        } transform transition duration-500 ease-in-out px-4 pt-2 pb-4 sm:flex sm:p-0`}
       >
         {MenuItems.map((item, index) => {
           return (

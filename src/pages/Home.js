@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/UI/HeroSection";
-import Card from "../components/UI/Card";
+import Cards from "../components/UI/Cards";
 import { HeroText } from "../Assets/Data/HeroText";
 export const Home = () => {
   return (
@@ -11,7 +11,7 @@ export const Home = () => {
         descriptionTop={HeroText.descriptionTop}
         descriptionBottom={HeroText.descriptionBottom}
       />
-      <Card />
+      <Cards />
     </div>
   );
 };

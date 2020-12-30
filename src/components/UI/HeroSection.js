@@ -4,19 +4,19 @@ const HeroSection = (props) => {
   return (
     <div
       style={{ height: "75vh" }}
-      className=" flex items-center opacity-90 justify-center bg-hero-image w-full relative bg-center bg-cover text-white"
+      className="relative flex items-center justify-center w-full text-white bg-center bg-cover opacity-90 bg-hero-image"
     >
-      <div className="flex flex-col text-center  mx-4 transform transition duration-500 ease-in-out hover:scale-110">
-        <h1 className=" text-5xl shadow-inner lg:text-7xl xl:text-8xl ">
+      <div className="flex flex-col mx-4 text-center transition duration-500 ease-in-out transform hover:scale-110">
+        <h1 className="text-5xl shadow-inner lg:text-7xl xl:text-8xl">
           {props.titleTop}
         </h1>
-        <h1 className=" text-5xl lg:text-7xl xl:text-8xl">
+        <h1 className="text-5xl lg:text-7xl xl:text-8xl">
           {props.titleBottom}
         </h1>
-        <p className="text-lg mt-4 lg:text-2xl xl:text-3xl xl:mt-8">
+        <p className="mt-4 text-lg lg:text-2xl xl:text-3xl xl:mt-8">
           {props.descriptionTop}
         </p>
-        <p className=" text-lg lg:text-2xl xl:text-3xl xl:pb-24">
+        <p className="text-lg lg:text-2xl xl:text-3xl xl:pb-24">
           {props.descriptionBottom}
         </p>
       </div>

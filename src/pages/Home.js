@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../components/UI/HeroSection";
 import Cards from "../components/UI/Cards";
-import Stack from "../components/UI/Stack";
+import Stacks from "../components/UI/Stacks";
 import { HeroText } from "../Assets/Data/HeroText";
 export const Home = () => {
   return (
@@ -13,7 +13,7 @@ export const Home = () => {
         descriptionBottom={HeroText.descriptionBottom}
       />
       <Cards />
-      <Stack />
+      <Stacks />
     </div>
   );
 };

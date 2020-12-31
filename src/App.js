@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Nav from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="mt-12">
+    <div className="">
       <h1>Projects page</h1>
     </div>
   );

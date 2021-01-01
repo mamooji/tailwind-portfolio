@@ -18,7 +18,6 @@ const Courses = () => {
                 title={course.title}
                 icon={course.icon}
                 instructor={course.instructor}
-                description={course.description}
                 complete={course.complete}
               />
             );

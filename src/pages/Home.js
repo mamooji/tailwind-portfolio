@@ -5,7 +5,7 @@ import Stacks from "../components/UI/Stacks";
 import { HeroText } from "../Assets/Data/HeroText";
 export const Home = () => {
   return (
-    <div className="">
+    <>
       <HeroSection
         titleTop={HeroText.titleTop}
         titleBottom={HeroText.titleBottom}
@@ -14,7 +14,7 @@ export const Home = () => {
       />
       <Cards />
       <Stacks />
-    </div>
+    </>
   );
 };
 

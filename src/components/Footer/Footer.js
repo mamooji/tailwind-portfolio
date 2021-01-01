@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="p-4 bg-gradient-to-r from-purple-400 to-red-500 text-white ">
+    <footer class=" absolute bottom-0 w-full p-4 bg-gradient-to-r from-purple-400 to-red-500 text-white ">
       <div class=" flex-col flex lg:flex-row items-center">
         <div class="w-full lg:w-auto lg:mr-auto text-center lg:text-left">
           © 2020 Muhammad Mamooji

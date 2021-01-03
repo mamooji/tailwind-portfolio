@@ -2,12 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 w-full p-4 text-white  bg-gradient-to-r from-purple-400 to-red-500">
-      <div className="flex flex-col items-center  lg:flex-row">
-        <div className="w-full text-center lg:w-auto lg:mr-auto lg:text-left">
+    <footer className="absolute bottom-0 w-full p-4 text-white bg-gradient-to-r from-purple-400 to-red-500">
+      <div className="flex flex-col items-center sm:flex-row">
+        <div className="w-full text-center sm:w-auto sm:mr-auto sm:text-left">
           © 2020 Muhammad Mamooji
         </div>
-        <div className="flex items-center justify-center mt-4 space-x-6 lg:mt-0">
+        <div className="flex items-center justify-center mt-4 space-x-6 sm:mt-0">
           <a
             href="https://www.github.com/mamooji/"
             target="_blank"

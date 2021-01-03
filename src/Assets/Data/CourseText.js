@@ -15,9 +15,9 @@ export const CourseText = [
             gradientTransform="rotate(116.114 53.1 202.97) scale(86.48)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset=".3" stop-color="#3E863D" />
-            <stop offset=".5" stop-color="#55934F" />
-            <stop offset=".8" stop-color="#5AAD45" />
+            <stop offset=".3" stopColor="#3E863D" />
+            <stop offset=".5" stopColor="#55934F" />
+            <stop offset=".8" stopColor="#5AAD45" />
           </linearGradient>
           <linearGradient
             id="d"
@@ -26,9 +26,9 @@ export const CourseText = [
             gradientTransform="rotate(-36.46 550.846 -214.337) scale(132.798)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset=".57" stop-color="#3E863D" />
-            <stop offset=".72" stop-color="#619857" />
-            <stop offset="1" stop-color="#76AC64" />
+            <stop offset=".57" stopColor="#3E863D" />
+            <stop offset=".72" stopColor="#619857" />
+            <stop offset="1" stopColor="#76AC64" />
           </linearGradient>
           <linearGradient
             id="f"
@@ -37,11 +37,11 @@ export const CourseText = [
             gradientTransform="translate(192.862 279.652) scale(97.417)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset=".16" stop-color="#6BBF47" />
-            <stop offset=".38" stop-color="#79B461" />
-            <stop offset=".47" stop-color="#75AC64" />
-            <stop offset=".7" stop-color="#659E5A" />
-            <stop offset=".9" stop-color="#3E863D" />
+            <stop offset=".16" stopColor="#6BBF47" />
+            <stop offset=".38" stopColor="#79B461" />
+            <stop offset=".47" stopColor="#75AC64" />
+            <stop offset=".7" stopColor="#659E5A" />
+            <stop offset=".9" stopColor="#3E863D" />
           </linearGradient>
         </defs>
         <path
@@ -54,12 +54,12 @@ export const CourseText = [
         />
         <path
           fill="#333"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M94.936 90.55c0-1.84-.97-3.53-2.558-4.445l-42.356-24.37a4.946 4.946 0 0 0-2.328-.67h-.438c-.812.03-1.613.25-2.34.67L2.562 86.105A5.154 5.154 0 0 0 0 90.555l.093 65.64c0 .91.47 1.76 1.27 2.21.78.48 1.76.48 2.54 0l25.18-14.42c1.59-.946 2.56-2.618 2.56-4.44V108.88a5.1 5.1 0 0 1 2.555-4.43l10.72-6.174a5.086 5.086 0 0 1 2.56-.688c.876 0 1.77.226 2.544.687l10.715 6.172c1.586.91 2.56 2.6 2.56 4.43v30.663c0 1.82.983 3.5 2.565 4.44l25.164 14.41a2.5 2.5 0 0 0 2.56 0 2.568 2.568 0 0 0 1.268-2.21zm199.868 34.176c0 .457-.243.88-.64 1.106l-14.548 8.386a1.282 1.282 0 0 1-1.277 0l-14.55-8.386c-.4-.227-.64-.65-.64-1.106V107.93c0-.458.24-.88.63-1.11l14.54-8.4c.4-.23.89-.23 1.29 0l14.55 8.4c.4.23.64.652.64 1.11zM298.734.324a2.568 2.568 0 0 0-2.544.027c-.78.46-1.262 1.3-1.262 2.21v65a1.788 1.788 0 0 1-2.684 1.55L281.634 63a5.108 5.108 0 0 0-5.112 0l-42.37 24.453a5.105 5.105 0 0 0-2.56 4.42v48.92c0 1.83.977 3.51 2.56 4.43l42.37 24.47c1.582.91 3.53.91 5.117 0l42.37-24.48c1.58-.92 2.56-2.6 2.56-4.43V18.863a5.128 5.128 0 0 0-2.63-4.47zm141.093 107.164a5.116 5.116 0 0 0 2.543-4.422V91.21c0-1.824-.97-3.507-2.547-4.425l-42.1-24.44a5.113 5.113 0 0 0-5.13 0l-42.36 24.45c-1.59.92-2.56 2.6-2.56 4.43v48.9c0 1.84.99 3.54 2.58 4.45l42.09 23.99c1.55.89 3.45.9 5.02.03l25.46-14.15c.8-.45 1.31-1.3 1.31-2.22 0-.92-.49-1.78-1.29-2.23l-42.62-24.46c-.8-.45-1.29-1.3-1.29-2.21v-15.34c0-.916.48-1.76 1.28-2.216l13.26-7.65c.79-.46 1.76-.46 2.55 0l13.27 7.65c.79.45 1.28 1.3 1.28 2.21v12.06c0 .91.49 1.76 1.28 2.22.79.45 1.77.45 2.56-.01zm0 0"
         />
         <path
           fill="#689f63"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M394.538 105.2a.97.97 0 0 1 .98 0l8.13 4.69c.304.176.49.5.49.85v9.39c0 .35-.186.674-.49.85l-8.13 4.69a.97.97 0 0 1-.98 0l-8.125-4.69a.979.979 0 0 1-.5-.85v-9.39c0-.35.18-.674.49-.85zm0 0"
         />
         <g transform="translate(-78.306 -164.016)">
@@ -79,8 +79,10 @@ export const CourseText = [
         </g>
       </svg>
     ),
-    instructor: "Andrew Mead, Full Stack Developer and Teacher",
+    instructor: "Andrew Mead",
+    instructorTitle: ", Full Stack Developer and Teacher",
     title: "The Complete Node.js Developer Course (3rd Edition)",
+    class: "bg-gradient-to-r from-green-400 to-gray-500",
     complete: true,
   },
   {
@@ -110,9 +112,10 @@ export const CourseText = [
       </svg>
     ),
 
-    instructor:
-      "Maximilian Schwarxmuller, Professional Web Developer and Instructor",
+    instructor: "Maximilian Schwarxmuller",
+    instructorTitle: ", Professional Web Developer and Instructor",
     title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    class: "bg-gradient-to-r from-teal to-blue-400",
     complete: true,
   },
   {
@@ -127,8 +130,10 @@ export const CourseText = [
         <path d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371 7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607 9.969 0 16.325-4.984 16.325-11.858 0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257 0-18.044 13.747-31.792 35.228-31.792 15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31-7.046 0-11.514 4.468-11.514 10.31 0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804 0 21.654-17.012 33.51-39.867 33.51-22.339 0-36.774-10.654-43.819-24.574" />
       </svg>
     ),
-    instructor: "Colt Steele, Developer and Bootcamp Instructor",
+    instructor: "Colt Steele",
+    instructorTitle: ", Developer and Bootcamp Instructor",
     title: "JavaScript Algorithms and Data Structures Masterclass",
+    class: "bg-gradient-to-r from-yellow-400 to-gray-400",
     complete: true,
   },
   {
@@ -144,9 +149,10 @@ export const CourseText = [
         />
       </svg>
     ),
-    instructor:
-      "Maximilian Schwarxmuller, Professional Web Developer and Instructor",
+    instructor: "Maximilian Schwarxmuller",
+    instructorTitle: ", Professional Web Developer and Instructor",
     title: "Understanding Typescript - 2021 Edition",
+    class: "bg-gradient-to-r from-blue-600 to-blue-500",
     complete: false,
   },
   {
@@ -166,8 +172,10 @@ export const CourseText = [
         <path d="M27.985 22.5a2.68 2.68 0 01-3.654.981 2.68 2.68 0 01-.981-3.654 2.68 2.68 0 013.654-.981 2.665 2.665 0 01.98 3.654M6.642 10.174a2.68 2.68 0 01-3.654.981A2.68 2.68 0 012.007 7.5a2.68 2.68 0 013.654-.981 2.68 2.68 0 01.981 3.654M2.015 22.5a2.68 2.68 0 01.981-3.654 2.68 2.68 0 013.654.981 2.68 2.68 0 01-.981 3.654c-1.287.735-2.92.3-3.654-.98m21.343-12.326a2.68 2.68 0 01.981-3.654 2.68 2.68 0 013.654.981 2.68 2.68 0 01-.981 3.654 2.68 2.68 0 01-3.654-.981M15 30a2.674 2.674 0 112.674-2.673A2.68 2.68 0 0115 30m0-24.652a2.67 2.67 0 01-2.674-2.674 2.67 2.67 0 115.347 0A2.67 2.67 0 0115 5.347" />
       </svg>
     ),
-    instructor: "Andrew Mead, Full Stack Developer and Teacher",
+    instructor: "Andrew Mead",
+    instructorTitle: ", Full Stack Developer and Teacher",
     title: "The Modern GraphQL Bootcamp (with Node.js and Apollo)",
+    class: "bg-gradient-to-r from-pink-700 to-pink-500",
     complete: false,
   },
 ];

@@ -14,7 +14,7 @@ export const StackText = [
     description:
       "Most of my web-development skills have been learned outside of school.",
     logo: <NodeLogo className="w-16 h-16 mx-auto mb-4" />,
-    class: "bg-gradient-to-r from-green-400 to-gray-400",
+    class: "bg-gradient-to-r from-green-400 to-gray-500",
   },
   {
     stack: "Tailwind CSS",

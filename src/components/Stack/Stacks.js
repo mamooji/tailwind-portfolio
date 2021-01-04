@@ -11,7 +11,7 @@ const Stacks = () => {
           Stack
         </span>
       </h2>
-      <p className="max-w-xl mx-auto mb-12 text-gray-400">
+      <p className="max-w-xl mx-auto mb-12 text-gray-500">
         Because everyone has their favourite tools for the job
       </p>
       <div className="flex flex-wrap justify-center -mx-8">

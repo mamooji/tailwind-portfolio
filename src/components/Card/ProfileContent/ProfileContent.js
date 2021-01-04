@@ -7,7 +7,7 @@ const ProfileContent = (props) => {
           A little about me
         </h1>
 
-        <p className="py-2 text-gray-700 ">
+        <p className="py-2 text-gray-600 ">
           Currently a Third year Software Engineering student attending
           Conestoga College, seeking an full time development position for the
           upcoming spring of 2021. I am Full Stack developer who is very

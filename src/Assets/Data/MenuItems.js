@@ -11,4 +11,8 @@ export const MenuItems = [
     title: "Projects",
     url: "/projects",
   },
+  {
+    title: "Credits",
+    url: "/credits",
+  },
 ];

@@ -9,7 +9,7 @@ const Course = (props) => {
             <p className="text-sm font-semibold text-gray-700 md:text-base ">
               {props.title}
             </p>
-            <p className="text-xs text-gray-500 md:text-base ">
+            <p className="text-xs text-gray-600 md:text-base ">
               <span className={`text-transparent bg-clip-text ${props.color}`}>
                 {props.instructor}
               </span>

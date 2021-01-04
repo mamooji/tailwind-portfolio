@@ -1,7 +1,7 @@
 import React from "react";
-import HeroSection from "../components/UI/HeroSection";
-import Cards from "../components/UI/Cards";
-import Stacks from "../components/UI/Stacks";
+import HeroSection from "../components/HeroSection/HeroSection";
+import Cards from "../components/Card/HeroCard/Cards";
+import Stacks from "../components/Stack/Stacks";
 import { HeroText } from "../Assets/Data/HeroText";
 export const Home = () => {
   return (

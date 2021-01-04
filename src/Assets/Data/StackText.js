@@ -1,6 +1,6 @@
-import { ReactComponent as TailwindLogo } from "../../Assets/tailwindcssLogo.svg";
-import { ReactComponent as ReactLogo } from "../../Assets/react.svg";
-import { ReactComponent as NodeLogo } from "../../Assets/node-js-logo.svg";
+import { ReactComponent as TailwindLogo } from "../../Assets/SVG/tailwindcssLogo.svg";
+import { ReactComponent as ReactLogo } from "../../Assets/SVG/react.svg";
+import { ReactComponent as NodeLogo } from "../../Assets/SVG/node-js-logo.svg";
 export const StackText = [
   {
     stack: "React",

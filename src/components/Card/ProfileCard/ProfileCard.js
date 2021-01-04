@@ -1,5 +1,5 @@
 import React from "react";
-import Selfie from "../../../Assets/Images/selfie.jpg";
+import Selfie from "../../../Assets/Images/selfie.webp";
 const ProfileCard = (props) => {
   return (
     <div className="max-w-sm mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">
@@ -14,12 +14,12 @@ const ProfileCard = (props) => {
           Muhammad Mamooji
         </h1>
 
-        <p className="py-2 text-gray-700 ">
+        <p className="py-2 text-gray-600 ">
           Full Stack maker & UI / UX Designer , love hip hop music Author of
           Building UI.
         </p>
 
-        <div className="flex items-center mt-4 text-gray-700">
+        <div className="flex items-center mt-4 text-gray-600">
           <svg
             className="w-6 h-6 fill-current"
             viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ const ProfileCard = (props) => {
           <h1 className="px-2 text-sm">Conestoga College</h1>
         </div>
 
-        <div className="flex items-center mt-4 text-gray-700 ">
+        <div className="flex items-center mt-4 text-gray-600 ">
           <svg
             className="w-6 h-6 fill-current"
             viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ const ProfileCard = (props) => {
           <h1 className="px-2 text-sm">Ontario, Canada</h1>
         </div>
 
-        <div className="flex items-center mt-4 text-gray-700">
+        <div className="flex items-center mt-4 text-gray-600">
           <svg
             className="w-6 h-6 fill-current"
             viewBox="0 0 24 24"

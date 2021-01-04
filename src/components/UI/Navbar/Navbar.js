@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Logo from "../../Assets/Images/logo.png";
-import { MenuItems } from "../../Assets/Data/MenuItems";
+import Logo from "../../../Assets/Images/logo.png";
+import { MenuItems } from "../../../Assets/Data/MenuItems";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {

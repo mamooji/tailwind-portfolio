@@ -1,11 +1,7 @@
 import React from "react";
-
+import ProjectCards from "../components/Card/Projects/ProjectCards";
 const Projects = () => {
-  return (
-    <div className="">
-      <h1>Projects page</h1>
-    </div>
-  );
+  return <ProjectCards />;
 };
 
 export default Projects;

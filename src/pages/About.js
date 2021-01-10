@@ -6,7 +6,7 @@ import Courses from "../components/Courses/Courses";
 const About = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-around max-w-screen-lg mx-auto">
         <ProfileCard />
         <ProfileContent />
       </div>

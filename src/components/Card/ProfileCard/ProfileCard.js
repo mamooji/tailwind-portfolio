@@ -2,7 +2,7 @@ import React from "react";
 import Selfie from "../../../Assets/Images/selfie.webp";
 const ProfileCard = (props) => {
   return (
-    <div className="max-w-sm mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">
+    <div className="max-w-md mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">
       <img
         className="object-cover object-center w-full h-56"
         src={Selfie}

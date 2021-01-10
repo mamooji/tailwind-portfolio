@@ -1,7 +1,7 @@
 import React from "react";
 const ProfileContent = (props) => {
   return (
-    <div className="max-w-sm mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">
+    <div className="max-w-md mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">
       <div className="px-6 py-4">
         <h1 className="text-xl font-semibold text-gray-800">
           A little about me

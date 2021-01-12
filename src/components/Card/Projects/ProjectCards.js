@@ -12,6 +12,11 @@ const ProjectCards = () => {
             image={project.image}
             description={project.description}
             title={project.title}
+            stack={project.stack}
+            githubStatus={project.github}
+            githubLink={project.githubLink}
+            demoStatus={project.demo}
+            demoLink={project.demoLink}
           />
         );
       })}

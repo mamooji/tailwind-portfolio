@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileCard from "../components/Card/ProfileCard/ProfileCard";
 import ProfileContent from "../components/Card/ProfileContent/ProfileContent";
-import Courses from "../components/Courses/Courses";
+import Courses from "../components/Card/Courses/Courses";
 
 const About = () => {
   return (

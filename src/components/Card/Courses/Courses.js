@@ -1,6 +1,6 @@
 import React from "react";
-import { CourseText } from "../../Assets/Data/CourseText";
-import Course from "../Card/Course/Course";
+import { CourseText } from "../../../Assets/Data/CourseText";
+import Course from "./Course";
 
 const Courses = () => {
   return (

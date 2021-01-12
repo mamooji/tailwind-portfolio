@@ -3,14 +3,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Credits from "./pages/Credits";
 import Projects from "./pages/Projects";
-import NavbarV2 from "./components/UI/NavBarV2/NavbarV2";
-import FooterV2 from "./components/UI/FooterV2/FooterV2";
+import Navbar from "./components/UI/NavBar/Navbar";
+import Footer from "./components/UI/Footer/Footer";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 function App() {
   return (
     <div className="relative min-h-screen">
-      <NavbarV2 />
+      <Navbar />
       <div className="pb-16">
         <Switch>
           <Route path="/about" component={About} />
@@ -20,7 +20,7 @@ function App() {
           <Redirect to="/" />
         </Switch>
       </div>
-      <FooterV2 />
+      <Footer />
     </div>
   );
 }

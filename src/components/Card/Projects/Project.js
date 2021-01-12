@@ -10,7 +10,7 @@ const Project = (props) => {
   };
   return (
     <div
-      className="max-w-xs mx-4 my-8 duration-500 transform rounded-lg shadow-lg cursor-pointer hover:scale-110"
+      className="max-w-xs mx-4 my-8 duration-500 transform rounded-lg shadow-lg cursor-pointer group hover:scale-110"
       onClick={setModalTrue}
     >
       <div className="relative flex flex-col items-center justify-center">
@@ -20,9 +20,12 @@ const Project = (props) => {
           src={props.image}
           alt="avatar"
         />
-        <p className="absolute flex items-center justify-center p-4 text-lg font-bold text-center text-white ">
-          {props.title}
-        </p>
+        <div className="absolute flex flex-col items-center justify-center p-4 text-lg font-bold text-center text-white ">
+          <p>{props.title}</p>
+          <p className="text-xs transition-all duration-500 ease-in-out transform opacity-0 group-hover:opacity-100">
+            {props.stack}
+          </p>
+        </div>
       </div>
 
       <Modal

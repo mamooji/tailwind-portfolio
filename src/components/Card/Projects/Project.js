@@ -15,6 +15,7 @@ const Project = (props) => {
     >
       <div className="relative flex flex-col items-center justify-center">
         <img
+          style={{ filter: "brightness(80%)" }}
           className="block object-cover h-60 rounded-xl "
           src={props.image}
           alt="avatar"

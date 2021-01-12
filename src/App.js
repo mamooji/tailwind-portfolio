@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Credits from "./pages/Credits";
 import Projects from "./pages/Projects";
-import Navbar from "./components/UI/NavBar/Navbar";
+import Navbar from "./components/UI/Navbar/Navbar";
 import Footer from "./components/UI/Footer/Footer";
 import { Route, Switch, Redirect } from "react-router-dom";
 

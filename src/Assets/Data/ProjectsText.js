@@ -1,4 +1,3 @@
-import Selfie from "../Images/selfie.webp";
 import Samosa from "../Images/samosa.webp";
 import Tmc from "../Images/tmc.webp";
 import Burger from "../Images/burger.webp";

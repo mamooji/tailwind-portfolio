@@ -8,16 +8,22 @@ const ProfileContent = (props) => {
         </h1>
 
         <p className="py-2 text-gray-600 ">
-          Currently a Third year Software Engineering student attending
-          Conestoga College, seeking an full time development position for the
-          upcoming spring of 2021. I am Full Stack developer who is very
-          interested in improving both my front-end and back-end development
-          skills. I am seeking for new insights or experiences whether it would
-          come from reading about new upcoming technologies or travelling to new
-          places to meet and expand my connections. I’ve had web development
-          experience since 2017 as I have created websites for local businesses
-          within the city, I reside in. These early experiences of developing
-          websites without any formal education in web development, have
+          Currently a third-year software-engineering student attending
+          Conestoga College, seeking a full-time development position for the
+          upcoming spring of 2021. I am a Full-Stack Developer who is keen on
+          improving both my Frontend and Backend skills through formal
+          experience. I enjoy spending my spare time learning about the newest
+          frameworks and technologies that can make my life easier coding.
+          <br />
+          <br />
+          Outside of development, I enjoy working out and long-distance running
+          to better my physical health. My recent endeavours include learning
+          how to cook something other than eggs and spending quality time with
+          my family.
+          <br />
+          <br />
+          As time flies by, I realize that I should appreciate the present and
+          look forward to the future.
         </p>
       </div>
     </div>

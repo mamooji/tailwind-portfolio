@@ -16,7 +16,7 @@ export const CardText = [
     icon: faGraduationCap,
     title: "Graduated",
     description:
-      "Recent graduate of the Software Engineering Technology program at.",
+      "Recent graduate of the Software Engineering Technology program at Conestoga College.",
     color: "bg-pink-400",
   },
   {

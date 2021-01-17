@@ -1,6 +1,6 @@
 import React from "react";
 import Selfie from "../../../Assets/Images/selfie.webp";
-import Resume from "../../../Assets/resumeLatex.pdf";
+import Resume from "../../../Assets/resume.pdf";
 const ProfileCard = (props) => {
   return (
     <div className="max-w-md mx-4 my-8 overflow-hidden bg-white rounded-lg shadow-lg">

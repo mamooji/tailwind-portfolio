@@ -1,12 +1,10 @@
 import React from "react";
-// import Hero from "../../Assets/Images/heroImage.webp";
 const HeroSection = (props) => {
   return (
     <div
       style={{ height: "75vh" }}
       className="relative flex items-center justify-center w-full text-white bg-center bg-cover opacity-90 bg-hero "
     >
-      {/* <img src={Hero} alt="avatar" /> */}
       <div className="flex flex-col  mx-4 text-center">
         <h1 className="text-5xl shadow-inner">{props.titleTop}</h1>
         <h1 className="text-5xl">{props.titleBottom}</h1>

@@ -5,6 +5,7 @@ import Covid from "../Images/covid.webp";
 import Game from "../Images/game.webp";
 import Weather from "../Images/weather.webp";
 import Music from "../Images/music.webp";
+import React from "react";
 export const ProjectsText = [
   {
     title: "Weather Search",

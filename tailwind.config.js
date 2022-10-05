@@ -7,9 +7,9 @@ module.exports = {
         teal: "#06B6D4",
         tealV2: "#14B8A6",
       },
-      backgroundImage: (theme) => ({
-        "hero-image": "url('/src/Assets/Images/heroImage.webp')",
-      }),
+      backgroundImage: {
+        hero: "url('Assets/Images/heroImage.webp')",
+      },
     },
   },
   variants: {

@@ -1,11 +1,13 @@
 import React from "react";
+// import Hero from "../../Assets/Images/heroImage.webp";
 const HeroSection = (props) => {
   return (
     <div
       style={{ height: "75vh" }}
-      className="relative flex items-center justify-center w-full text-white bg-center bg-cover opacity-90 bg-hero-image"
+      className="relative flex items-center justify-center w-full text-white bg-center bg-cover opacity-90 bg-hero "
     >
-      <div className="flex flex-col mx-4 text-center">
+      {/* <img src={Hero} alt="avatar" /> */}
+      <div className="flex flex-col  mx-4 text-center">
         <h1 className="text-5xl shadow-inner">{props.titleTop}</h1>
         <h1 className="text-5xl">{props.titleBottom}</h1>
         <p className="mt-4 text-lg ">{props.descriptionTop}</p>
@@ -14,7 +16,7 @@ const HeroSection = (props) => {
           <a
             href="https://www.github.com/mamooji/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <svg
               className="w-8 h-8 transition-all duration-500 ease-in-out rounded-full fill-current hover:bg-purple-300 "
@@ -27,7 +29,7 @@ const HeroSection = (props) => {
 
           <a
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/mamooji/"
           >
             <svg

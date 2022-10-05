@@ -36,7 +36,7 @@ const ProfileCard = (props) => {
 
           <a
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
             href="https://www.conestogac.on.ca/fulltime/software-engineering-technology"
             className="px-2 text-sm cursor-pointer hover:text-purple-400"
           >

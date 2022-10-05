@@ -12,7 +12,7 @@ const Footer = () => {
             <a
               href="https://www.github.com/mamooji/"
               target="_blank"
-              rel="noreferrer"
+              rel=" noopener noreferrer"
             >
               <svg
                 className="w-8 h-8 transition-all duration-500 ease-in-out rounded-full fill-current hover:bg-purple-300 "
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel=" noopener noreferrer"
               href="https://www.linkedin.com/in/mamooji/"
             >
               <svg

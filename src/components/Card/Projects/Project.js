@@ -52,7 +52,7 @@ const Project = (props) => {
               <a
                 href={props.githubLink}
                 target="_blank"
-                rel="noreferrer"
+                rel=" noopener noreferrer"
                 className={`${
                   props.githubStatus ? " " : "pointer-events-none"
                 }`}
@@ -69,7 +69,7 @@ const Project = (props) => {
               </a>
               <a
                 target="_blank"
-                rel="noreferrer"
+                rel=" noopener noreferrer"
                 href={props.demoLink}
                 className={`${props.demoStatus ? " " : "pointer-events-none"}`}
               >

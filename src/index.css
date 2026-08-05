@@ -1,4 +1,10 @@
-/* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #06b6d4;
+  --color-teal-v2: #14b8a6;
+}
+
+@utility bg-hero {
+  background-image: url("./Assets/Images/heroImage.webp");
+}

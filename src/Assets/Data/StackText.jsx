@@ -1,6 +1,6 @@
-import { ReactComponent as TailwindLogo } from "../../Assets/SVG/tailwindcssLogo.svg";
-import { ReactComponent as ReactLogo } from "../../Assets/SVG/react.svg";
-import { ReactComponent as NodeLogo } from "../../Assets/SVG/node-js-logo.svg";
+import TailwindLogo from "../../Assets/SVG/tailwindcssLogo.svg?react";
+import ReactLogo from "../../Assets/SVG/react.svg?react";
+import NodeLogo from "../../Assets/SVG/node-js-logo.svg?react";
 import React from "react";
 export const StackText = [
   {
@@ -21,6 +21,6 @@ export const StackText = [
     description:
       "A utility-first CSS framework that I favor using over the standard CSS markup.",
     logo: <TailwindLogo className="w-16 h-16 mx-auto mb-4" />,
-    class: "bg-gradient-to-r from-teal to-tealV2",
+    class: "bg-gradient-to-r from-teal to-teal-v2",
   },
 ];

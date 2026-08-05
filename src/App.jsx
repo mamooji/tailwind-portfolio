@@ -5,20 +5,20 @@ import Credits from "./pages/Credits";
 import Projects from "./pages/Projects";
 import Navbar from "./components/UI/Navbar/Navbar";
 import Footer from "./components/UI/Footer/Footer";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router";
 
 function App() {
   return (
     <div className="relative min-h-screen">
       <Navbar />
       <div className="pb-16">
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/credits" component={Credits} />
-          <Route path="/" exact component={Home} />
-          <Redirect to="/" />
-        </Switch>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/credits" element={<Credits />} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
       </div>
       <Footer />
     </div>

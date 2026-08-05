@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 
-Modal.setAppElement();
+Modal.setAppElement("#root");
 const Project = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

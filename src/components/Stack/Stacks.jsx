@@ -2,34 +2,23 @@ import React from "react";
 import { StackText } from "../../Assets/Data/StackText";
 import Stack from "./SingleStack";
 
-const Stacks = () => {
-  return (
-    <section className="px-4 py-12 overflow-x-hidden text-center ">
-      <h2 className="mb-2 text-4xl font-semibold leading-tight font-heading">
-        Meet the{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500">
-          Stack
-        </span>
-      </h2>
-      <p className="max-w-xl mx-auto mb-12 text-gray-500">
-        Because everyone has their favourite tools for the job
-      </p>
-      <div className="flex flex-wrap justify-center max-w-screen-lg mx-auto">
-        {StackText.map((stack, index) => {
-          return (
-            <Stack
-              class={stack.class}
-              logo={stack.logo}
-              stack={stack.stack}
-              description={stack.description}
-              key={index}
-              num={index}
-            />
-          );
-        })}
+/** The one deliberate accent field in the system: steel ground, type reversed to paper. */
+const Stacks = () => (
+  <section className="border-t border-ink/15 bg-steel-900 text-paper">
+    <div className="mx-auto max-w-[1280px] px-8 py-16">
+      <div className="flex flex-col items-start justify-between gap-6 border-b border-paper/20 pb-6 md:flex-row md:items-end md:gap-8">
+        <h2 className="text-[44px] uppercase tracking-[-0.02em]">Meet the Stack</h2>
+        <p className="max-w-[38ch] text-sm leading-relaxed text-paper/70">
+          Because everyone has their favourite tools for the job
+        </p>
       </div>
-    </section>
-  );
-};
+      <div className="grid md:grid-cols-3">
+        {StackText.map((stack, index) => (
+          <Stack key={stack.stack} num={index} {...stack} />
+        ))}
+      </div>
+    </div>
+  </section>
+);
 
 export default Stacks;

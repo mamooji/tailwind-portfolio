@@ -5,13 +5,14 @@ import Credits from "./pages/Credits";
 import Projects from "./pages/Projects";
 import Navbar from "./components/UI/Navbar/Navbar";
 import Footer from "./components/UI/Footer/Footer";
-import { Route, Routes, Navigate } from "react-router";
+import { Route, Routes, Navigate, useLocation } from "react-router";
 
 function App() {
+  const location = useLocation();
   return (
-    <div className="relative min-h-screen">
+    <div className="flex min-h-screen flex-col bg-paper text-ink">
       <Navbar />
-      <div className="pb-16">
+      <main key={location.pathname} className="flex-1 animate-rise-in">
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-      </div>
+      </main>
       <Footer />
     </div>
   );

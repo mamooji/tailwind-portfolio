@@ -1,29 +1,24 @@
-import {
-  faGraduationCap,
-  faBookOpen,
-  faEye,
-} from "@fortawesome/free-solid-svg-icons";
+import { BookOpen, GraduationCap, Eye } from "lucide-react";
 
 export const CardText = [
   {
-    icon: faBookOpen,
+    num: "01",
+    icon: BookOpen,
     title: "Self Taught",
-    description:
-      "Most of my web-development skills have been learned outside of school.",
-    color: "bg-purple-400",
+    description: "Most of my web-development skills have been learned outside of school.",
   },
   {
-    icon: faGraduationCap,
+    num: "02",
+    icon: GraduationCap,
     title: "Graduated",
     description:
       "Recent graduate of the Software Engineering Technology program at Conestoga College.",
-    color: "bg-pink-400",
   },
   {
-    icon: faEye,
+    num: "03",
+    icon: Eye,
     title: "Eye for Design",
     description:
       "Since a young age, I have always appreciated good design. My work is prided on it's UI / UX.",
-    color: "bg-red-500",
   },
 ];

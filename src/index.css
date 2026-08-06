@@ -1,10 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Barlow+Condensed:wght@400;600&display=swap");
 @import "tailwindcss";
+@import "./styles/industry.css";
 
+/* Industry design system tokens, mapped into Tailwind's theme namespaces.
+   Spacing is set to the system's 0.85x scale: p-8 = 27.2px, p-6 = 20.4px, etc. */
 @theme {
-  --color-teal: #06b6d4;
-  --color-teal-v2: #14b8a6;
+  --color-paper: #f2f2f3;
+  --color-surface: #e9e9ea;
+  --color-ink: #1d1f20;
+
+  --color-steel: #5980a6;
+  --color-steel-100: #eef6ff;
+  --color-steel-200: #d6ebff;
+  --color-steel-300: #b5d9fd;
+  --color-steel-400: #94bce3;
+  --color-steel-500: #749dc4;
+  --color-steel-600: #597ea3;
+  --color-steel-700: #416180;
+  --color-steel-800: #2c455d;
+  --color-steel-900: #1d2d3d;
+
+  --font-sans: "Barlow", system-ui, sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+  --font-heading: "Barlow Condensed", system-ui, sans-serif;
+
+  --spacing: 3.4px;
+
+  --shadow-sm: 0 1px 2px rgb(43 43 45 / 0.14);
+  --shadow-md: 0 3px 10px rgb(43 43 45 / 0.16);
+  --shadow-lg: 0 12px 32px rgb(43 43 45 / 0.22);
 }
 
-@utility bg-hero {
-  background-image: url("./Assets/Images/heroImage.webp");
+@layer base {
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+  }
+  a { color: var(--color-steel); text-decoration: none; }
+  a:hover { color: var(--color-steel-700); }
+  :focus { outline: none; }
+  :focus-visible { outline: 2px solid var(--color-steel); outline-offset: 2px; }
+  ::selection { background: rgb(89 128 166 / 0.3); }
 }

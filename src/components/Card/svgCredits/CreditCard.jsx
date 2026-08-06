@@ -1,14 +1,16 @@
 import React from "react";
+import Blueprint from "../../UI/Blueprint/Blueprint";
 
-const CreditCard = (props) => {
-  return (
-    <div className="max-w-xs mx-4 my-8 duration-500 transform rounded-lg shadow-lg hover:scale-110">
-      <div className="flex flex-col items-center p-8 space-y-4">
-        <div>{props.icon}</div>
-        <p className="text-center">{props.credit}</p>
-      </div>
+const CreditCard = ({ num, icon, credit }) => (
+  <Blueprint className="flex flex-col gap-6 p-8">
+    <div className="flex items-center justify-between">
+      {icon}
+      <span className="font-heading text-[11px] font-semibold tracking-[0.16em] text-ink/40">
+        {num}
+      </span>
     </div>
-  );
-};
+    <p className="text-[15px] leading-relaxed">{credit}</p>
+  </Blueprint>
+);
 
 export default CreditCard;
